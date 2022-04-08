@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Quiz Application</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section class="queSec">
+      <h1>React Quiz</h1>
+      <article>
+        <!-- question-1 -->
+        <div id="div1">
+          Q1. Which of the following command is used to create react-js-app ?<br /><br />
+          <input type="radio" name="question1" id="correct1" /> npx
+          create-react-app appname<br />
+          <input type="radio" name="question1" /> npm install create-react-app
+          <br />
+          <input type="radio" name="question1" /> npx install create-react-app -g
+          <br />
+          <input type="radio" name="question1" /> install - l create-react-app<br />
+        </div>
+
+        <!-- question-2 -->
+
+        <div id="div2">
+          Q2. In React.js which one of the following is used to create a class
+          for Inheritance ?<br /><br />
+          <input type="radio" name="question2" /> Create<br />
+          <input type="radio" name="question2" id="correct2" /> Extends <br />
+          <input type="radio" name="question2" /> Inherits<br />
+          <input type="radio" name="question2" /> Delete<br />
+        </div>
+
+        <!-- question-3 -->
+
+        <div id="div3">
+          Q3. What is the default port number in which the application run ?<br /><br />
+          <input type="radio" name="question3" id="correct3" /> 3000<br />
+          <input type="radio" name="question3" /> 8080<br />
+          <input type="radio" name="question3" /> 5000<br />
+          <input type="radio" name="question3" /> 3030<br />
+        </div>
+
+        <!-- question-4 -->
+        <div id="div4">
+          Q4. Which of the following valid component return type of React ?<br /><br />
+          <input type="radio" name="question3" /> 2<br />
+          <input type="radio" name="question3" /> 5<br />
+          <input type="radio" name="question3" id="correct4" /> 1<br />
+          <input type="radio" name="question3" /> 3<br />
+        </div>
+
+        <!-- question-5 -->
+        <div id="div5">
+          Q5. Which of the following is a way to handle data in React.js ?<br /><br />
+          <input type="radio" name="question3" id="correct5" /> State & Props<br />
+          <input type="radio" name="question3" /> Services & Components<br />
+          <input type="radio" name="question3" /> States & Services<br />
+          <input type="radio" name="question3" /> State & Component<br />
+        </div>
+
+        <!-- question-6 -->
+        <div id="div6">
+          Q6. React is mainly used for building ___.<br /><br />
+          <input type="radio" name="question3"/> Database<br />
+          <input type="radio" name="question3" /> Connectivity<br />
+          <input type="radio" name="question3"  id="correct6" /> User interface<br />
+          <input type="radio" name="question3" /> Design Platform<br />
+        </div>
+
+
+        <!-- question-7 -->
+        <div id="div7">
+          Q7. Which of the following concepts is/are key to ReactJS?<br /><br />
+          <input type="radio" name="question3"/> Component-oriented design<br />
+          <input type="radio" name="question3" /> Event delegation model<br />
+          <input type="radio" name="question3"  id="correct7" /> Both of the above<br>
+          <input type="radio" name="question3" /> None<br />
+        </div>
+
+
+        <!-- question-8 -->
+        <div id="div8">
+          Q8. What were the major problems with MVC framework?<br /><br />
+          <input type="radio" name="question3"/> DOM manipulation was very expensive <br />
+          <input type="radio" name="question3" /> Applications were slow and inefficient<br />
+          <input type="radio" name="question3"  id="correct8" /> Both A and B<br>
+          <input type="radio" name="question3" /> None<br />
+        </div>
+      </article>
+    </section>
+    <button onclick="m1()" id="btn1">Submit</button>
+    <button onclick="m2()" id="btn2">Submit</button>
+    <button onclick="m3()" id="btn3">Submit</button>
+    <button onclick="m4()" id="btn4">Submit</button>
+    <button onclick="m5()" id="btn5">Submit</button>
+    <button onclick="m6()" id="btn6">Submit</button>
+    <button onclick="m7()" id="btn7">Submit</button>
+    <button onclick="m8()" id="btn8">Submit</button>
+    <button onclick="res()" id="result">Check Result</button>
+
+    <div id="resDiv">
+      <span>Time : </span><span id="counting" style="color: red;"> 60 Seconds Left <span/>
+    </div>
+
+
+    <!-- <script src="./index.js"></script> -->
+    <script src="./quiz.js"></script>
+  </body>
+</html>
